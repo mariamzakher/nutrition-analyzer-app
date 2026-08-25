@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sphinx Fitness - Your personal fitness and nutrition planning assistant">
+    <title>Sphinx Fitness | Transform Your Life</title>
+    <link rel="icon" type="image/jpeg" href="images/sphinx-logo.jpeg" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="landing-nav">
+        <div class="container nav-flex">
+            <div class="logo">
+                <img src="images/sphinx-logo.jpeg" alt="Sphinx Fitness Logo">
+                <span class="logo-text">SPHINX FITNESS</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#plans">Plans</a>
+                <a href="#nutrition">Nutrition</a>
+                <a href="#stats">Progress</a>
+                <button class="btn btn-primary" onclick="window.location.href='app-main.html'">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-bg">
+            <img src="assets/IQr5ttbfxAyM.jpg" alt="Fitness Hero">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="hero-tagline">UNLEASH YOUR INNER SPHINX</span>
+            <h1>Transform Your Body,<br><span class="highlight">Elevate Your Life</span></h1>
+            <p>Personalized workout plans, expert nutrition guidance, and real-time progress tracking—everything you need to achieve your fitness goals.</p>
+            <div class="hero-btns">
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='app-main.html'">Start Your Journey</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Highlight Section -->
+    <section id="features" class="section features-highlight">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Sphinx Fitness?</h2>
+                <p>Everything you need to succeed in one powerful platform</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3>Personalized Workouts</h3>
+                    <p>Get tailored training programs designed for your fitness level and goals, from beginner to advanced.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🥗</div>
+                    <h3>Smart Nutrition Plans</h3>
+                    <p>Receive customized diet plans with macro tracking to fuel your body and maximize results.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-Time Progress</h3>
+                    <p>Track your weight, activity, and achievements with beautiful visual statistics and insights.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Goal Tracking</h3>
+                    <p>Set ambitious goals and watch your progress unfold with our intuitive tracking system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workout Plans Section -->
+    <section id="plans" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Workout Plans</h2>
+                <p>Tailored training programs for every fitness level</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-img">
+                        <img src="assets/eWwnAysL3l7z.jpg" alt="Beginner Plan">
+                        <span class="plan-tag">Beginner</span>
+                    </div>
+                    <div class="plan-info">
+                        <h3>Full Body Circuit</h3>
+                        <p>30 min • Low Intensity</p>
+                        <ul>
+                            <li>Build foundational strength</li>
+                            <li>No equipment needed</li>
+                            <li>Perfect for starters</li>
+                        </ul>
+                        <button class="btn btn-secondary btn-full" onclick="window.location.href='app-main.html'">Start Training</button>
+                    </div>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-img">
+                        <img src="assets/ZaB9ZKx8Lsvc.jpg" alt="Intermediate Plan">
+                        <span class="plan-tag intermediate">Intermediate</span>
+                    </div>
+                    <div class="plan-info">
+                        <h3>Upper Body Power</h3>
+                        <p>45 min • High Intensity</p>
+                        <ul>
+                            <li>Focus on muscle growth</li>
+                            <li>Dumbbells required</li>
+                            <li>Advanced techniques</li>
+                        </ul>
+                        <button class="btn btn-secondary btn-full" onclick="window.location.href='app-main.html'">Start Training</button>
+                    </div>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-img">
+                        <img src="assets/IQr5ttbfxAyM.jpg" alt="Advanced Plan">
+                        <span class="plan-tag advanced">Advanced</span>
+                    </div>
+                    <div class="plan-info">
+                        <h3>Pro Athlete Split</h3>
+                        <p>60 min • Pro Intensity</p>
+                        <ul>
+                            <li>Elite level conditioning</li>
+                            <li>Full gym access</li>
+                            <li>Maximum performance</li>
+                        </ul>
+                        <button class="btn btn-secondary btn-full" onclick="window.location.href='app-main.html'">Start Training</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition & Diet Plans Section -->
+    <section id="nutrition" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nutrition & Diet Plans</h2>
+                <p>Fuel your body with the right nutrients for your goals</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card diet">
+                    <div class="plan-img">
+                        <img src="assets/D4SMwaVLr59j.jpg" alt="Weight Loss">
+                    </div>
+                    <div class="plan-info">
+                        <h3>Weight Loss Focus</h3>
+                        <p>Low Carb • High Fiber</p>
+                        <div class="macros-summary">
+                            <span>1800 kcal</span>
+                            <span>40% Protein</span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="window.location.href='app-main.html'">View Plan</button>
+                    </div>
+                </div>
+                <div class="plan-card diet">
+                    <div class="plan-img">
+                        <img src="assets/PhUtAs15BQ4j.jpg" alt="Muscle Gain">
+                    </div>
+                    <div class="plan-info">
+                        <h3>Muscle Building</h3>
+                        <p>High Protein • Moderate Carb</p>
+                        <div class="macros-summary">
+                            <span>2800 kcal</span>
+                            <span>35% Protein</span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="window.location.href='app-main.html'">View Plan</button>
+                    </div>
+                </div>
+                <div class="plan-card diet">
+                    <div class="plan-img">
+                        <img src="assets/L0wS0iqCpWN7.jpg" alt="Healthy Lifestyle">
+                    </div>
+                    <div class="plan-info">
+                        <h3>Healthy Lifestyle</h3>
+                        <p>Balanced • Whole Foods</p>
+                        <div class="macros-summary">
+                            <span>2200 kcal</span>
+                            <span>30% Protein</span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="window.location.href='app-main.html'">View Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Stats Section -->
+    <section id="stats" class="section bg-dark">
+        <div class="container">
+            <div class="section-header white">
+                <h2>Track Your Progress</h2>
+                <p>Visual statistics to keep you motivated on your fitness journey</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Weight Progress</h3>
+                    <div class="chart-container">
+                        <canvas id="weightChart"></canvas>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <h3>Activity Distribution</h3>
+                    <div class="chart-container">
+                        <canvas id="activityChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform?</h2>
+                <p>Join thousands of users who have already achieved their fitness goals with Sphinx Fitness</p>
+                <button class="btn btn-primary btn-lg" onclick="window.location.href='app-main.html'">Start Your Free Trial</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="landing-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="images/sphinx-logo.jpeg" alt="Logo">
+                    <span class="logo-text">SPHINX</span>
+                </div>
+                <p>The ultimate fitness companion for the modern athlete. Transform your body and elevate your life with Sphinx Fitness.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#plans">Workout Plans</a></li>
+                    <li><a href="#nutrition">Nutrition</a></li>
+                    <li><a href="#stats">Progress Tracking</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Get In Touch</h4>
+                <ul>
+                    <li>📧 support@sphinxfitness.com</li>
+                    <li>📞 +20 123 456 7890</li>
+                    <li>📍 Cairo, Egypt</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sphinx Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/landing.js"></script>
+</body>
+</html>
